@@ -20,6 +20,7 @@ biber \
 latexmk \
 texlive-full \
 # misc stuff
+curl \
 vim \
 hunspell \
 hunspell-de-at \
