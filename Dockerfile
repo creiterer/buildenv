@@ -23,5 +23,6 @@ texlive-full \
 curl \
 vim \
 hunspell \
+hunspell-en-us \
 hunspell-de-at \
 && rm -rf /var/lib/apt/lists/*
