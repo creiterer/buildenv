@@ -1,5 +1,8 @@
 FROM debian:sid-slim
 
+# see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=863199 
+# for the reason why the following command is necessary
+RUN mkdir -p /usr/share/man/man1
 RUN apt update && apt install -y \
 # build stuff
 make \
@@ -19,10 +22,13 @@ golang-golang-x-tools \
 biber \
 latexmk \
 texlive-full \
+# java stuff
+default-jre \
 # misc stuff
 curl \
 vim \
 hunspell \
 hunspell-en-us \
 hunspell-de-at \
+uuid-dev \
 && rm -rf /var/lib/apt/lists/*
