@@ -25,6 +25,7 @@ texlive-full \
 # java stuff
 default-jre \
 # misc stuff
+git \
 curl \
 vim \
 hunspell \
