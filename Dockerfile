@@ -12,6 +12,7 @@ ninja-build \
 # c/c++ stuff
 gcc \
 clang \
+clang-tidy \
 # python stuff
 python2 \
 python3 \
