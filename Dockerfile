@@ -29,6 +29,7 @@ default-jre \
 git \
 curl \
 vim \
+graphviz \
 hunspell \
 hunspell-en-us \
 hunspell-de-at \
