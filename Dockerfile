@@ -30,6 +30,7 @@ git \
 curl \
 vim \
 graphviz \
+inkscape \
 hunspell \
 hunspell-en-us \
 hunspell-de-at \
